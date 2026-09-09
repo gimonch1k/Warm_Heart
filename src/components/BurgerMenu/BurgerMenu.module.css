@@ -1,0 +1,65 @@
+.navigation {
+  display: flex;
+  gap: 50px;
+  display: none;
+
+  a {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    color: var(--black);
+  }
+}
+
+.dropDown {
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  width: 130px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--beige);
+  border-radius: 5px;
+  opacity: 0.97;
+  z-index: 1;
+
+  p {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    margin: 0 0 0 auto;
+    font-size: 21px;
+    cursor: pointer;
+  }
+
+  a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--black);
+  }
+}
+
+@media (min-width: 480px) {
+  .dropDown {
+    width: 27.5%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .dropDown {
+    width: 350px;
+
+    a {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .navigation {
+    display: flex;
+  }
+}
