@@ -1,6 +1,11 @@
 .section {
   padding: 70px 20px 90px 20px;
-  background-color: var(--beige);
+  display: flex;
+}
+
+.column,
+.row {
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
@@ -15,6 +20,10 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
+  }
+
+  .row {
+    flex-direction: row;
   }
 }
 
