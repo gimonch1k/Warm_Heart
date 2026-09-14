@@ -8,7 +8,7 @@ export default function Purchases() {
     <div className={styles.purchases}>
       <Search />
 
-      <Bag />
+      <Bag classCart="cart" />
     </div>
   );
 }

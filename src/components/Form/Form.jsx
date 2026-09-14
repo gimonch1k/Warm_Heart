@@ -1,13 +1,12 @@
 import styles from "./Form.module.css";
 
+import Input from "../Input/Input";
 import Button from "../Button/Button";
 
 export default function Form() {
   return (
     <form className={styles.form}>
-      <div className={styles.wrapper}>
-        <input type="text" placeholder="Email address" />
-      </div>
+      <Input placeholder="Email address" />
 
       <Button>Submit</Button>
     </form>
