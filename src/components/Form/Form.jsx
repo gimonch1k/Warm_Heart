@@ -8,7 +8,7 @@ export default function Form() {
     <form className={styles.form}>
       <Input placeholder="Email address" />
 
-      <Button>Submit</Button>
+      <Button style={{ backgroundColor: "var(--black)", color: "var(--white)" }}>Submit</Button>
     </form>
   );
 }

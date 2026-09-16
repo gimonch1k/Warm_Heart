@@ -1,6 +1,7 @@
 import styles from "./App.module.css";
 
 import Header from "../Header/Header";
+import Comfort from "../Comfort/Comfort";
 import EcoMaterials from "../EcoMaterials/EcoMaterials";
 import Form from "../Form/Form";
 import Section from "../Section/Section";
@@ -15,6 +16,7 @@ function App() {
     <div className={styles.app}>
       <Header />
 
+      <Comfort />
       <EcoMaterials />
 
       <Section>
